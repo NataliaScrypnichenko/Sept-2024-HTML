@@ -25,7 +25,7 @@ body{
     width: 509px;
     height: 457px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items:center;
     flex-direction: column;
 }
@@ -36,7 +36,7 @@ body{
     font-style: normal;
     font-weight: 600;
     line-height: 62px; /* 155% */
-    padding-top: 12px;
+    margin-right: 34px;
 }
 .frontend div p{
     width: 509px;
@@ -49,6 +49,7 @@ body{
     line-height: 30px; /* 166.667% */
     padding-right: 10px;
     margin-bottom: 54px;
+    margin-top: 7px;
 }
 .social-media{
     display: flex;
@@ -63,9 +64,9 @@ body{
     display: flex;
     justify-content: space-between;
     align-items:center;
-    padding-top: 25px;
     padding-right:173px ;
     gap: 30px;
+    margin-top: 25px;
 }
 .button-Send:hover{
     background: #FAF4F2;
@@ -320,7 +321,6 @@ body{
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    /* border: 3px solid green;*/
     margin-right: 150px;
     margin-left: 150px;
     gap: 24px;
